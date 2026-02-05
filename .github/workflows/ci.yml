@@ -1,0 +1,36 @@
+name: Get started CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies (if any)
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Quick sanity check
+        run: |
+          python -c "import sys; print('Python', sys.version)"
+
+      - name: Check AutomatedFormFilling.py syntax
+        run: |
+          if [ -f AutomatedFormFilling.py ]; then
+            python -m py_compile AutomatedFormFilling.py
+            echo "Syntax OK"
+          else
+            echo "AutomatedFormFilling.py not found, skipping syntax check"
+          fi
