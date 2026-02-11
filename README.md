@@ -1,5 +1,14 @@
-
 # Selenium Google Search Automation
+
+<div align="right">
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-Automation-43B02A?logo=selenium&logoColor=white)
+![Browser](https://img.shields.io/badge/Browser-Firefox-FF7139?logo=firefoxbrowser&logoColor=white)
+![Status](https://img.shields.io/badge/Project-Learning%20%26%20Portfolio-blue)
+![Last Commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/selenium-firefox-google-search-automation)
+
+</div>
 
 A simple script to automate web interactions using Selenium. This script demonstrates opening a Firefox browser, navigating to Google, and performing a search query.
 
@@ -84,9 +93,11 @@ Best option for:
 - Long-term reliability
 - Professional projects
 
+What you’ll get at the end
+
 ---
 
-What you’ll get at the end
+## How to escape the roboot checker?
 
 You will have two things (both required):
 
@@ -95,7 +106,7 @@ You will have two things (both required):
 
 Only when you have both does the API work.
 
-STEP 1 — Create a Google Cloud project
+<b>STEP 1</b> — Create a Google Cloud project
 
 1. Open: https://console.cloud.google.com/
 2. Log in with your Google account
@@ -107,9 +118,8 @@ STEP 1 — Create a Google Cloud project
 
 6. Click **Create**
 
-📌 This project will own your API key.
 
-STEP 2 — Enable “Custom Search API”
+<b>STEP 2</b> — Enable “Custom Search API”
 
 1. Inside your project, go to: **APIs & Services → Library**
 2. Search for **Custom Search API**
@@ -118,7 +128,7 @@ STEP 2 — Enable “Custom Search API”
 
 ✅ API is now active for your project.
 
-STEP 3 — Create the API Key
+<b>STEP 3</b> — Create the API Key
 
 1. Go to **APIs & Services → Credentials**
 2. Click **Create Credentials**
@@ -131,7 +141,7 @@ Example format:
 
 ⚠️ Don’t share this publicly.
 
-STEP 4 — Create a Custom Search Engine (CSE)
+<b>STEP 4</b> — Create a Custom Search Engine (CSE)
 
 This is where many people get confused — follow exactly.
 
@@ -146,7 +156,7 @@ This is where many people get confused — follow exactly.
 
 Now your search engine exists.
 
-STEP 5 — Allow searching the entire web
+<b>STEP 5</b> — Allow searching the entire web
 
 By default, CSE only searches selected sites — we must change this.
 
@@ -158,7 +168,7 @@ By default, CSE only searches selected sites — we must change this.
 
 ✅ Now it behaves like Google Search.
 
-STEP 6 — Get the Search Engine ID (CX)
+<b>STEP 6</b> — Get the Search Engine ID (CX)
 
 1. In CSE settings → **Basics**
 2. Copy **Search engine ID**
@@ -169,7 +179,7 @@ Example:
 
 This is your CX value.
 
-STEP 7 — Confirm your free quota
+<b>STEP 7</b> — Confirm your free quota
 
 Google gives:
 
