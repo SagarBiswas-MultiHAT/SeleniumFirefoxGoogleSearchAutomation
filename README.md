@@ -118,6 +118,9 @@ Only when you have both does the API work.
 
 6. Click **Create**
 
+That project will own your API key.
+
+---
 
 <b>STEP 2</b> — Enable “Custom Search API”
 
@@ -126,7 +129,9 @@ Only when you have both does the API work.
 3. Click **Custom Search API**
 4. Click **Enable**
 
-✅ API is now active for your project.
+API is now active for your project.
+
+---
 
 <b>STEP 3</b> — Create the API Key
 
@@ -139,7 +144,9 @@ Example format:
 
 `AIzaSyDxxxxxxxxxxxxxxxxxxxxxxx`
 
-⚠️ Don’t share this publicly.
+Don’t share this publicly.
+
+---
 
 <b>STEP 4</b> — Create a Custom Search Engine (CSE)
 
@@ -156,6 +163,8 @@ This is where many people get confused — follow exactly.
 
 Now your search engine exists.
 
+---
+
 <b>STEP 5</b> — Allow searching the entire web
 
 By default, CSE only searches selected sites — we must change this.
@@ -166,7 +175,9 @@ By default, CSE only searches selected sites — we must change this.
 4. Turn it **ON**
 5. Save changes
 
-✅ Now it behaves like Google Search.
+Now it behaves like Google Search.
+
+---
 
 <b>STEP 6</b> — Get the Search Engine ID (CX)
 
@@ -179,11 +190,13 @@ Example:
 
 This is your CX value.
 
+---
+
 <b>STEP 7</b> — Confirm your free quota
 
 Google gives:
 
-- ✅ 100 searches per day — FREE
+- 100 searches per day — FREE
 - Paid after that (optional)
 
 Check quota here:
@@ -191,14 +204,18 @@ Google Cloud Console → **APIs & Services → Quotas**
 
 What you should now have
 
+<div align=center>
+
 | Item | Example |
 |------|---------|
 | API Key | `AIzaSy...` |
 | Search Engine ID (CX) | `a1b2c3...` |
 
+</div>
+
 If you have both, you’re ready.
 
-Test URL (optional sanity check)
+### Test URL (optional sanity check)
 
 Paste this in your browser (replace values):
 
@@ -206,6 +223,12 @@ Paste this in your browser (replace values):
 https://www.googleapis.com/customsearch/v1?key=API_KEY&cx=CX&q=hello+google
 ```
 
-If it returns JSON → ✅ success
+If it returns JSON → SCCESS
+
+---
+
+<div align=right>
 
 Feel free to contribute and enhance the script. Happy coding!
+
+</div>
