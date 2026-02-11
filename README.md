@@ -6,7 +6,7 @@
 ![Selenium](https://img.shields.io/badge/Selenium-Automation-43B02A?logo=selenium&logoColor=white)
 ![Browser](https://img.shields.io/badge/Browser-Firefox-FF7139?logo=firefoxbrowser&logoColor=white)
 ![Status](https://img.shields.io/badge/Project-Learning%20%26%20Portfolio-blue)
-![Last Commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/selenium-firefox-google-search-automation)
+![Last Commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/selenium-google-search-automation)
 
 </div>
 
